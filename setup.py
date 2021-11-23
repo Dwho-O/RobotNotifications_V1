@@ -6,7 +6,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    name="rbt-notifications_v1",
+    name="rbtv1n",
     version="1.2.0",
     description="Envie notigicações com o Robot Framework para o Slack.",
     long_description=README,
