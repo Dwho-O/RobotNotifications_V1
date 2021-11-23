@@ -9,7 +9,7 @@ Can be used both as library or listener.
 
 The recommended installation method is pip:
 
-    pip install robotframework-notifications
+    pip install rbtv1n
 
 Running this command installs also the latest version of Requests
 
