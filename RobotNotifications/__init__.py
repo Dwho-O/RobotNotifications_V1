@@ -99,7 +99,7 @@ class RobotNotifications:
                     f'Total Tests : {statistics.total}\n'
                     f'Total Passed : {statistics.passed}\n'
                     f'Total Failed : {statistics.failed}'
-                    '\nlog.html'+ "log.html" 
+                    
                 )
                 if statistics.failed == 0:
                     attachments_data = self._get_attachments('GREEN', attachment_text)
