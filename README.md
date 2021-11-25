@@ -14,6 +14,7 @@ The recommended installation method is pip ubuntu:
     pip install git+https://github.com/Dwho-O/RobotNotifications_V1.git
 
 The recommended installation method is pip Windows:
+
     https://git-scm.com/downloads
     pip install git+https://github.com/Dwho-O/RobotNotifications_V1.git
 
