@@ -6,12 +6,12 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    name="rbtv1n",
+    name="robotframework-notifications",
     version="1.2.0",
-    description="Envie notigicações com o Robot Framework para o Slack.",
+    description="Send notifications to Slack or Mattermost using Robot Framework.",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/Dwho-O/RobotNotifications_V1",
+    url="https://github.com/tlolkema/RobotNotifications",
     author="Tim Lolkema",
     author_email="tim@detesters.nl",
     license="MIT",
