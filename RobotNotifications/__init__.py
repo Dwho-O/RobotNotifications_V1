@@ -93,12 +93,13 @@ class RobotNotifications:
         
         if 'summary' in self.args:
             if not result.parent:
-                text = f'*Relatório {result.longname}*'  
+                text = f'*Relatório do teste*'  
                 attachment_text = (
+                    f'Relatório : \n'
                     f'Total Tests : {statistics.total}\n'
                     f'Total Passed : {statistics.passed}\n'
                     f'Total Failed : {statistics.failed}'
-                    f'Relatório : {"log".html}'
+                    '\nlog.html'+ "log.html" 
                 )
                 if statistics.failed == 0:
                     attachments_data = self._get_attachments('GREEN', attachment_text)
