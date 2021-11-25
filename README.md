@@ -7,9 +7,15 @@ Can be used both as library or listener.
 
 ## Installation
 
-The recommended installation method is pip:
+The recommended installation method is pip ubuntu:
 
-    pip install rbtv1n
+    sudo apt install git
+    
+    pip install git+https://github.com/Dwho-O/RobotNotifications_V1.git
+
+The recommended installation method is pip Windows:
+    https://git-scm.com/downloads
+    pip install git+https://github.com/Dwho-O/RobotNotifications_V1.git
 
 Running this command installs also the latest version of Requests
 
